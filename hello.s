@@ -5,7 +5,7 @@
 .word __BSS_LOAD__ - __STARTUP_LOAD__ ; Size
 
 .segment "RODATA"
-MSG: .ASCIIZ "Hello!"
+MSG: .ASCIIZ "Hello world!"
 
 .segment "STARTUP"
 
